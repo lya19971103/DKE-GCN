@@ -60,7 +60,7 @@ python seq_transformation.py
 
 # Pre-trained Model
 
-We only provide some pre-trained models based on teacher CTR-GCN and student S8 .  More pre-trained models based on teacher MS-G3D will be uploaded  within several weeks.  
+We only provide some pre-trained DKE-GCN  based on teacher CTR-GCN and student S8 .  More pre-trained models based on teacher MS-G3D will be uploaded  within several weeks.  
 
 Link: https://pan.baidu.com/s/1dQhKbaS-rp5pNteS9H8ERg 
 Password: uyvh
