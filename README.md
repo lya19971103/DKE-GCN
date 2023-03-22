@@ -49,7 +49,7 @@ The same as CTR-GCN
       ...
 ```
 
- 	3. Generating the skeleton data:
+3. Generating the skeleton data:
 
 ```
 cd ./data/ntu # or cd ./data/ntu120
