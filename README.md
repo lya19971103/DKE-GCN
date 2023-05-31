@@ -9,16 +9,16 @@ Currently, we only provide some pre-trained models based on CTR-GCN to ensure au
 
 # Pre-trained Model
 
-We  provide some pre-trained DKE-GCN  based on teacher HD-GCN and student (shrinking version of CTR-GCN) .  
-| **Method**       | **NTU60-XSub** | **NTU60-XView** | **NTU120-XSub** | **NTU120-XSet** |
-|------------------|----------------|-----------------|-----------------|-----------------|
-| Js-DKE-GCN       | 91.78          | 96.44           | 88.88           | 87.04           |
-| Bs-DKE-GCN       | 92.02          | 96.27           | 89.96           | 88.25           |
-| Js-light-DKE-GCN |                |                 | 86.35           | 88.05           |
-| Bs-light-DKE-GCN |                |                 | 87.62           |                 |
+| **Method**       | **NTU60-XSub(%)** | **NTU60-XView(%)** | **NTU120-XSet(%)** | **NTU120-XSub(%)** |
+|:----------------:|:--------------:|:---------------:|:---------------:|:---------------:|
+| **Js-DKE-GCN**       | 91.78          | 96.44           | 88.88           | 87.04           |
+| **Bs-DKE-GCN**       | 92.02          | 96.27           | 89.96           | 88.25           |
+| **Js-light-DKE-GCN** | 90.96          | 95.78           |   88.05         | 86.35           |
+| **Bs-light-DKE-GCN** | 91.67          | 95.66           |   89.00         |  87.62          |
 
-Link: https://pan.baidu.com/s/1dQhKbaS-rp5pNteS9H8ERg 
-Password: uyvh
+
+Link: [Baidu Cloud](https://pan.baidu.com/s/1eaQN-Nsqk7dV6Gbso3rchw) 
+Password: 14x9
 
 Guided by ![CTR-GCN](https://github.com/Uason-Chen/CTR-GCN), you can test our distilled student  by :
 
