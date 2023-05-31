@@ -4,9 +4,27 @@ This is the implementation of Decoupled Knowledge Emedded Graph Convolutional Ne
 
 To emphasize, this is only a preliminary version, which will be further supplemented in a few weeks.
 
-Currently, we only provide some pre-trained models based on CTR-GCN to ensure authenticity.  We are sorting out the project and uploading it within several weeks, including the all code and more pre-trained models.
+Currently, we only provide some pre-trained models based on CTR-GCN to ensure authenticity.  We are sorting out the project and uploading it within several weeks.
 
 
+# Pre-trained Model
+
+We  provide some pre-trained DKE-GCN  based on teacher HD-GCN and student (shrinking version of CTR-GCN) .  
+| **Method**       | **NTU60-XSub** | **NTU60-XView** | **NTU120-XSub** | **NTU120-XSet** |
+|------------------|----------------|-----------------|-----------------|-----------------|
+| Js-DKE-GCN       | 91.78          | 96.44           | 88.88           | 87.04           |
+| Bs-DKE-GCN       | 92.02          | 96.27           | 89.96           | 88.25           |
+| Js-light-DKE-GCN |                |                 | 86.35           | 88.05           |
+| Bs-light-DKE-GCN |                |                 | 87.62           |                 |
+
+Link: https://pan.baidu.com/s/1dQhKbaS-rp5pNteS9H8ERg 
+Password: uyvh
+
+Guided by ![CTR-GCN](https://github.com/Uason-Chen/CTR-GCN), you can test our distilled student  by :
+
+```
+python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/xxx.pt --device 0
+```
 
 # Overall Architecture
 
@@ -58,16 +76,4 @@ python get_raw_denoised_data.py
 python seq_transformation.py
 ```
 
-# Pre-trained Model
-
-We only provide some pre-trained DKE-GCN  based on teacher CTR-GCN and student S8 .  More pre-trained models based on teacher MS-G3D will be uploaded  within several weeks.  
-
-Link: https://pan.baidu.com/s/1dQhKbaS-rp5pNteS9H8ERg 
-Password: uyvh
-
-The student S8 is the shrinking version of [2s-AGCN](https://github.com/lshiwjx/2s-AGCN) . You can test our distilled student  by :
-
-```
-python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/xxx.pt --device 0
-```
 
